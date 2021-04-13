@@ -11,6 +11,7 @@ def alarm(setAlarm):
     while True:
 
         # need a time now so we can compare
+        time.sleep(1)
         current_time = datetime.datetime.now()
         time = current_time.strftime("%H:%M")
         date = current_time.strftime("%d/%m/%y")
